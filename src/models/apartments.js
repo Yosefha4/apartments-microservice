@@ -46,11 +46,9 @@ const apartmentSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    apImages: [
-      {
-        type: String,
-      },
-    ],
+    apImages: {
+      type: String,
+    },
     ownerName: {
       type: String,
       required: true,
